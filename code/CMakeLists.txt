@@ -16,4 +16,4 @@ add_subdirectory(end_effector)
 add_executable(main_run main.cpp)
 
 # Link the modules with the main executable
-target_link_libraries(main_run PRIVATE GUI line_detection stroke_planner end_effector)
+target_link_libraries(main_run PRIVATE GUI line_detection stroke_planner motion_planner end_effector)

@@ -82,6 +82,7 @@ main_run: CMakeFiles/main_run.dir/build.make
 main_run: GUI/libGUI.a
 main_run: line_detection/libline_detection.a
 main_run: stroke_planner/libstroke_planner.a
+main_run: motion_planner/libmotion_planner.a
 main_run: end_effector/libend_effector.a
 main_run: CMakeFiles/main_run.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main_run"

@@ -178,6 +178,7 @@ stroke_planner/clean: stroke_planner/CMakeFiles/stroke_planner.dir/clean
 CMakeFiles/main_run.dir/all: GUI/CMakeFiles/GUI.dir/all
 CMakeFiles/main_run.dir/all: line_detection/CMakeFiles/line_detection.dir/all
 CMakeFiles/main_run.dir/all: stroke_planner/CMakeFiles/stroke_planner.dir/all
+CMakeFiles/main_run.dir/all: motion_planner/CMakeFiles/motion_planner.dir/all
 CMakeFiles/main_run.dir/all: end_effector/CMakeFiles/end_effector.dir/all
 	$(MAKE) -f CMakeFiles/main_run.dir/build.make CMakeFiles/main_run.dir/depend
 	$(MAKE) -f CMakeFiles/main_run.dir/build.make CMakeFiles/main_run.dir/build
@@ -186,7 +187,7 @@ CMakeFiles/main_run.dir/all: end_effector/CMakeFiles/end_effector.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main_run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main_run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/CMakeFiles 0
 .PHONY : CMakeFiles/main_run.dir/rule

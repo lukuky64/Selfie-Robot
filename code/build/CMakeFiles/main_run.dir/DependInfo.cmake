@@ -13,6 +13,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../GUI"
   "../line_detection"
   "../stroke_planner"
+  "../motion_planner"
   "../end_effector"
   )
 
@@ -21,6 +22,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/GUI/CMakeFiles/GUI.dir/DependInfo.cmake"
   "/home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/line_detection/CMakeFiles/line_detection.dir/DependInfo.cmake"
   "/home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/stroke_planner/CMakeFiles/stroke_planner.dir/DependInfo.cmake"
+  "/home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/motion_planner/CMakeFiles/motion_planner.dir/DependInfo.cmake"
   "/home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/end_effector/CMakeFiles/end_effector.dir/DependInfo.cmake"
   )
 

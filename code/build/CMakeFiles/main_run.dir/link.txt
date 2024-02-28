@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/main_run.dir/main.cpp.o  -o main_run  GUI/libGUI.a line_detection/libline_detection.a stroke_planner/libstroke_planner.a end_effector/libend_effector.a 
+/usr/bin/c++  -g   CMakeFiles/main_run.dir/main.cpp.o  -o main_run  GUI/libGUI.a line_detection/libline_detection.a stroke_planner/libstroke_planner.a motion_planner/libmotion_planner.a end_effector/libend_effector.a 
