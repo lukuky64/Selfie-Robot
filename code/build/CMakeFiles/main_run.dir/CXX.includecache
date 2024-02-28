@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lukuky64/catkin_ws/src/Selfie-Robot/code/GUI/GUI.h
+
+/home/lukuky64/catkin_ws/src/Selfie-Robot/code/end_effector/end_effector.h
+
+/home/lukuky64/catkin_ws/src/Selfie-Robot/code/line_detection/line_detection.h
+
+/home/lukuky64/catkin_ws/src/Selfie-Robot/code/main.cpp
+line_detection/line_detection.h
+/home/lukuky64/catkin_ws/src/Selfie-Robot/code/line_detection/line_detection.h
+motion_planner/motion_planner.h
+/home/lukuky64/catkin_ws/src/Selfie-Robot/code/motion_planner/motion_planner.h
+stroke_planner/stroke_planner.h
+/home/lukuky64/catkin_ws/src/Selfie-Robot/code/stroke_planner/stroke_planner.h
+end_effector/end_effector.h
+/home/lukuky64/catkin_ws/src/Selfie-Robot/code/end_effector/end_effector.h
+GUI/GUI.h
+/home/lukuky64/catkin_ws/src/Selfie-Robot/code/GUI/GUI.h
+
+/home/lukuky64/catkin_ws/src/Selfie-Robot/code/motion_planner/motion_planner.h
+
+/home/lukuky64/catkin_ws/src/Selfie-Robot/code/stroke_planner/stroke_planner.h
+
