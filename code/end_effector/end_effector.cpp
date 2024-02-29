@@ -4,7 +4,10 @@
 #include <iostream>
 
 // Constructor implementation
-End_effector::End_effector(int initialValue) : value(initialValue) {}
+End_effector::End_effector(int initialValue) : value(initialValue)
+{
+    std::cout << "End_effector constructor called" << std::endl;
+}
 
 // Method to set the value
 void End_effector::setValue(int newValue) {

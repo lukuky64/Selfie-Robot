@@ -9,7 +9,7 @@
 #include "GUI/GUI.h"
 
 int main() {
-    // print
-    std::cout << "Hello, World!" << std::endl;
+    // get user input
+    std::cout << "Main function!" << std::endl;
     return 0;
 }

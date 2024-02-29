@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named individual_run
+
+# Build rule for target.
+individual_run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 individual_run
+.PHONY : individual_run
+
+# fast build rule for target.
+individual_run/fast:
+	$(MAKE) -f CMakeFiles/individual_run.dir/build.make CMakeFiles/individual_run.dir/build
+.PHONY : individual_run/fast
+
+#=============================================================================
 # Target rules for targets named main_run
 
 # Build rule for target.
@@ -215,6 +228,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/main_run.dir/build.make CMakeFiles/main_run.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test_individual.o: test_individual.cpp.o
+
+.PHONY : test_individual.o
+
+# target to build an object file
+test_individual.cpp.o:
+	$(MAKE) -f CMakeFiles/individual_run.dir/build.make CMakeFiles/individual_run.dir/test_individual.cpp.o
+.PHONY : test_individual.cpp.o
+
+test_individual.i: test_individual.cpp.i
+
+.PHONY : test_individual.i
+
+# target to preprocess a source file
+test_individual.cpp.i:
+	$(MAKE) -f CMakeFiles/individual_run.dir/build.make CMakeFiles/individual_run.dir/test_individual.cpp.i
+.PHONY : test_individual.cpp.i
+
+test_individual.s: test_individual.cpp.s
+
+.PHONY : test_individual.s
+
+# target to generate assembly for a file
+test_individual.cpp.s:
+	$(MAKE) -f CMakeFiles/individual_run.dir/build.make CMakeFiles/individual_run.dir/test_individual.cpp.s
+.PHONY : test_individual.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -223,6 +263,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... individual_run"
 	@echo "... main_run"
 	@echo "... GUI"
 	@echo "... line_detection"
@@ -232,6 +273,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test_individual.o"
+	@echo "... test_individual.i"
+	@echo "... test_individual.s"
 .PHONY : help
 
 

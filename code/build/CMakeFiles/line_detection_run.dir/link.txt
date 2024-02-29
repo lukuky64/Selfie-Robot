@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/line_detection_run.dir/line_detection/line_detection.cpp.o  -o line_detection_run  line_detection/libline_detection.a 

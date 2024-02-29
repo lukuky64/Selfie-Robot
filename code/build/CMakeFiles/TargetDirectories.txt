@@ -1,5 +1,6 @@
 /home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/CMakeFiles/rebuild_cache.dir
 /home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/CMakeFiles/edit_cache.dir
+/home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/CMakeFiles/individual_run.dir
 /home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/CMakeFiles/main_run.dir
 /home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/GUI/CMakeFiles/rebuild_cache.dir
 /home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/GUI/CMakeFiles/edit_cache.dir

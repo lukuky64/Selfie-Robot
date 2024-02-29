@@ -4,7 +4,10 @@
 #include <iostream>
 
 // Constructor implementation
-Motion_planner::Motion_planner(int initialValue) : value(initialValue) {}
+Motion_planner::Motion_planner(int initialValue) : value(initialValue)
+{
+    std::cout << "Motion_planner constructor called" << std::endl;
+}
 
 // Method to set the value
 void Motion_planner::setValue(int newValue) {

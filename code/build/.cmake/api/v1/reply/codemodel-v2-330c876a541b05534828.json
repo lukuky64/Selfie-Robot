@@ -22,7 +22,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						3
+						2,
+						4
 					]
 				},
 				{
@@ -50,7 +51,7 @@
 					"source" : "line_detection",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -64,7 +65,7 @@
 					"source" : "stroke_planner",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -78,7 +79,7 @@
 					"source" : "motion_planner",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -109,7 +110,7 @@
 						4,
 						5
 					],
-					"name" : "MyProject",
+					"name" : "SelfieRobot",
 					"targetIndexes" : 
 					[
 						0,
@@ -117,7 +118,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -138,16 +140,23 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 0,
+					"id" : "individual_run::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-individual_run-Debug-15dfa796f235471c1dcc.json",
+					"name" : "individual_run",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 2,
 					"id" : "line_detection::@bb199db57618eca60624",
-					"jsonFile" : "target-line_detection-Debug-4621e1001a4e60e628f0.json",
+					"jsonFile" : "target-line_detection-Debug-9f4f825e43187ccd3c3a.json",
 					"name" : "line_detection",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "main_run::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main_run-Debug-fcf735deacaeebc7c321.json",
+					"jsonFile" : "target-main_run-Debug-f21fab960ea7c7b40fe3.json",
 					"name" : "main_run",
 					"projectIndex" : 0
 				},

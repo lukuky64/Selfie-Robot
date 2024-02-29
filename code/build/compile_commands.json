@@ -1,7 +1,12 @@
 [
 {
   "directory": "/home/lukuky64/catkin_ws/src/Selfie-Robot/code/build",
-  "command": "/usr/bin/c++   -I/home/lukuky64/catkin_ws/src/Selfie-Robot/code/GUI -I/home/lukuky64/catkin_ws/src/Selfie-Robot/code/line_detection -I/home/lukuky64/catkin_ws/src/Selfie-Robot/code/stroke_planner -I/home/lukuky64/catkin_ws/src/Selfie-Robot/code/motion_planner -I/home/lukuky64/catkin_ws/src/Selfie-Robot/code/end_effector  -g   -std=gnu++17 -o CMakeFiles/main_run.dir/main.cpp.o -c /home/lukuky64/catkin_ws/src/Selfie-Robot/code/main.cpp",
+  "command": "/usr/bin/c++   -I/home/lukuky64/catkin_ws/src/Selfie-Robot/code/GUI -I/home/lukuky64/catkin_ws/src/Selfie-Robot/code/stroke_planner -I/home/lukuky64/catkin_ws/src/Selfie-Robot/code/motion_planner -I/home/lukuky64/catkin_ws/src/Selfie-Robot/code/end_effector -isystem /usr/include/opencv4  -g   -std=gnu++17 -o CMakeFiles/individual_run.dir/test_individual.cpp.o -c /home/lukuky64/catkin_ws/src/Selfie-Robot/code/test_individual.cpp",
+  "file": "/home/lukuky64/catkin_ws/src/Selfie-Robot/code/test_individual.cpp"
+},
+{
+  "directory": "/home/lukuky64/catkin_ws/src/Selfie-Robot/code/build",
+  "command": "/usr/bin/c++   -I/home/lukuky64/catkin_ws/src/Selfie-Robot/code/GUI -I/home/lukuky64/catkin_ws/src/Selfie-Robot/code/stroke_planner -I/home/lukuky64/catkin_ws/src/Selfie-Robot/code/motion_planner -I/home/lukuky64/catkin_ws/src/Selfie-Robot/code/end_effector -isystem /usr/include/opencv4  -g   -std=gnu++17 -o CMakeFiles/main_run.dir/main.cpp.o -c /home/lukuky64/catkin_ws/src/Selfie-Robot/code/main.cpp",
   "file": "/home/lukuky64/catkin_ws/src/Selfie-Robot/code/main.cpp"
 },
 {
@@ -11,7 +16,7 @@
 },
 {
   "directory": "/home/lukuky64/catkin_ws/src/Selfie-Robot/code/build/line_detection",
-  "command": "/usr/bin/c++    -g   -std=gnu++17 -o CMakeFiles/line_detection.dir/line_detection.cpp.o -c /home/lukuky64/catkin_ws/src/Selfie-Robot/code/line_detection/line_detection.cpp",
+  "command": "/usr/bin/c++   -isystem /usr/include/opencv4  -g   -std=gnu++17 -o CMakeFiles/line_detection.dir/line_detection.cpp.o -c /home/lukuky64/catkin_ws/src/Selfie-Robot/code/line_detection/line_detection.cpp",
   "file": "/home/lukuky64/catkin_ws/src/Selfie-Robot/code/line_detection/line_detection.cpp"
 },
 {

@@ -4,7 +4,10 @@
 #include <iostream>
 
 // Constructor implementation
-Stroke_planner::Stroke_planner(int initialValue) : value(initialValue) {}
+Stroke_planner::Stroke_planner(int initialValue) : value(initialValue)
+{
+    std::cout << "Stroke_planner constructor called" << std::endl;
+}
 
 // Method to set the value
 void Stroke_planner::setValue(int newValue) {
