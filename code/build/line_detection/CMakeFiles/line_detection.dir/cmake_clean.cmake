@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/line_detection.dir/line_detection.cpp.o"
+  "CMakeFiles/line_detection.dir/line_detection.cpp.o.d"
   "libline_detection.a"
   "libline_detection.pdb"
 )

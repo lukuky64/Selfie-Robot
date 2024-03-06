@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stroke_planner.dir/stroke_planner.cpp.o"
+  "CMakeFiles/stroke_planner.dir/stroke_planner.cpp.o.d"
   "libstroke_planner.a"
   "libstroke_planner.pdb"
 )

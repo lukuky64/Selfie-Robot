@@ -1,15 +1,14 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lukuky64/catkin_ws/src/Selfie-Robot/code/motion_planner/motion_planner.cpp" "/home/lukuky64/catkin_ws/src/Selfie-Robot/code/motion_planner/CMakeFiles/motion_planner.dir/motion_planner.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/root/ros2_ws/src/Selfie-Robot/code/motion_planner/motion_planner.cpp" "motion_planner/CMakeFiles/motion_planner.dir/motion_planner.cpp.o" "gcc" "motion_planner/CMakeFiles/motion_planner.dir/motion_planner.cpp.o.d"
   )
 
 # Targets to which this target links.

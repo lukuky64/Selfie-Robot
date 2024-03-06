@@ -1,2 +1,2 @@
-/usr/bin/ar qc libline_detection.a  CMakeFiles/line_detection.dir/line_detection.cpp.o
+/usr/bin/ar qc libline_detection.a CMakeFiles/line_detection.dir/line_detection.cpp.o
 /usr/bin/ranlib libline_detection.a
