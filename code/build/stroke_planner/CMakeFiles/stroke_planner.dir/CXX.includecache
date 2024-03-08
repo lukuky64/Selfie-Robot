@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Selfie-Robot/code/stroke_planner/stroke_planner.cpp
+stroke_planner.h
+/root/Selfie-Robot/code/stroke_planner/stroke_planner.h
+iostream
+-
+
+/root/Selfie-Robot/code/stroke_planner/stroke_planner.h
+

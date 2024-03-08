@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Selfie-Robot/code/motion_planner/motion_planner.cpp
+motion_planner.h
+/root/Selfie-Robot/code/motion_planner/motion_planner.h
+iostream
+-
+
+/root/Selfie-Robot/code/motion_planner/motion_planner.h
+

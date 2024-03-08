@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Selfie-Robot/code/GUI/GUI.cpp
+GUI.h
+/root/Selfie-Robot/code/GUI/GUI.h
+iostream
+-
+
+/root/Selfie-Robot/code/GUI/GUI.h
+

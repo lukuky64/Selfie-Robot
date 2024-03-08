@@ -1,2 +1,2 @@
-/usr/bin/ar qc libend_effector.a CMakeFiles/end_effector.dir/end_effector.cpp.o
+/usr/bin/ar qc libend_effector.a  CMakeFiles/end_effector.dir/end_effector.cpp.o
 /usr/bin/ranlib libend_effector.a

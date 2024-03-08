@@ -1,2 +1,2 @@
-/usr/bin/ar qc libstroke_planner.a CMakeFiles/stroke_planner.dir/stroke_planner.cpp.o
+/usr/bin/ar qc libstroke_planner.a  CMakeFiles/stroke_planner.dir/stroke_planner.cpp.o
 /usr/bin/ranlib libstroke_planner.a

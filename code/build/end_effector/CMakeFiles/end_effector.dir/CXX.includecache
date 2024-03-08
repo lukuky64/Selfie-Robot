@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Selfie-Robot/code/end_effector/end_effector.cpp
+end_effector.h
+/root/Selfie-Robot/code/end_effector/end_effector.h
+iostream
+-
+
+/root/Selfie-Robot/code/end_effector/end_effector.h
+
