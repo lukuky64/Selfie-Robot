@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/root/Selfie-Robot/code/build",
+  "command": "/usr/bin/c++   -I/root/Selfie-Robot/code/GUI -I/root/Selfie-Robot/code/stroke_planner -I/root/Selfie-Robot/code/motion_planner -I/root/Selfie-Robot/code/end_effector -isystem /usr/include/opencv4  -g   -std=gnu++17 -o CMakeFiles/individual_run.dir/test_individual.cpp.o -c /root/Selfie-Robot/code/test_individual.cpp",
+  "file": "/root/Selfie-Robot/code/test_individual.cpp"
+},
+{
+  "directory": "/root/Selfie-Robot/code/build",
+  "command": "/usr/bin/c++   -I/root/Selfie-Robot/code/GUI -I/root/Selfie-Robot/code/stroke_planner -I/root/Selfie-Robot/code/motion_planner -I/root/Selfie-Robot/code/end_effector -isystem /usr/include/opencv4  -g   -std=gnu++17 -o CMakeFiles/main_run.dir/main.cpp.o -c /root/Selfie-Robot/code/main.cpp",
+  "file": "/root/Selfie-Robot/code/main.cpp"
+},
+{
+  "directory": "/root/Selfie-Robot/code/build/GUI",
+  "command": "/usr/bin/c++    -g   -std=gnu++17 -o CMakeFiles/GUI.dir/GUI.cpp.o -c /root/Selfie-Robot/code/GUI/GUI.cpp",
+  "file": "/root/Selfie-Robot/code/GUI/GUI.cpp"
+},
+{
+  "directory": "/root/Selfie-Robot/code/build/line_detection",
+  "command": "/usr/bin/c++   -isystem /usr/include/opencv4  -g   -std=gnu++17 -o CMakeFiles/line_detection.dir/line_detection.cpp.o -c /root/Selfie-Robot/code/line_detection/line_detection.cpp",
+  "file": "/root/Selfie-Robot/code/line_detection/line_detection.cpp"
+},
+{
+  "directory": "/root/Selfie-Robot/code/build/stroke_planner",
+  "command": "/usr/bin/c++    -g   -std=gnu++17 -o CMakeFiles/stroke_planner.dir/stroke_planner.cpp.o -c /root/Selfie-Robot/code/stroke_planner/stroke_planner.cpp",
+  "file": "/root/Selfie-Robot/code/stroke_planner/stroke_planner.cpp"
+},
+{
+  "directory": "/root/Selfie-Robot/code/build/motion_planner",
+  "command": "/usr/bin/c++    -g   -std=gnu++17 -o CMakeFiles/motion_planner.dir/motion_planner.cpp.o -c /root/Selfie-Robot/code/motion_planner/motion_planner.cpp",
+  "file": "/root/Selfie-Robot/code/motion_planner/motion_planner.cpp"
+},
+{
+  "directory": "/root/Selfie-Robot/code/build/end_effector",
+  "command": "/usr/bin/c++    -g   -std=gnu++17 -o CMakeFiles/end_effector.dir/end_effector.cpp.o -c /root/Selfie-Robot/code/end_effector/end_effector.cpp",
+  "file": "/root/Selfie-Robot/code/end_effector/end_effector.cpp"
+}
+]

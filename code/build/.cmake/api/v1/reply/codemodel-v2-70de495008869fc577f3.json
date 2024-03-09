@@ -1,0 +1,191 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"build" : "GUI",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "GUI",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "line_detection",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "line_detection",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "stroke_planner",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "stroke_planner",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "motion_planner",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "motion_planner",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "end_effector",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "end_effector",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "SelfieRobot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "GUI::@0e4c3e8d74fe2080f54e",
+					"jsonFile" : "target-GUI-Debug-5af8acd73ae7be75eaaf.json",
+					"name" : "GUI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "end_effector::@0b5c610f85a80f6cd117",
+					"jsonFile" : "target-end_effector-Debug-355a3908da3c35d937a5.json",
+					"name" : "end_effector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "individual_run::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-individual_run-Debug-ed900d164385dba8fb9d.json",
+					"name" : "individual_run",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "line_detection::@bb199db57618eca60624",
+					"jsonFile" : "target-line_detection-Debug-9f4f825e43187ccd3c3a.json",
+					"name" : "line_detection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main_run::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_run-Debug-b8276451e8a086927373.json",
+					"name" : "main_run",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "motion_planner::@c277e5c926a75d8f1ac6",
+					"jsonFile" : "target-motion_planner-Debug-93075b7f98e8113e0628.json",
+					"name" : "motion_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "stroke_planner::@4250ded09c5cf920533e",
+					"jsonFile" : "target-stroke_planner-Debug-686986a37f2789d734e8.json",
+					"name" : "stroke_planner",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/Selfie-Robot/code/build",
+		"source" : "/root/Selfie-Robot/code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
